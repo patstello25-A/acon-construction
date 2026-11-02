@@ -1,0 +1,11 @@
+ACON CONSTRUCTION - SITIO WEB INICIAL
+1. En GitHub crea un repositorio público, por ejemplo acon-construction.
+2. Sube index.html, datos.js y la carpeta assets completa (Add file > Upload files).
+3. Ve a Settings > Pages > Build and deployment > Deploy from a branch.
+4. Selecciona main y / (root); pulsa Save.
+5. La URL será https://TU-USUARIO.github.io/acon-construction/ (reemplaza TU-USUARIO).
+6. Para añadir proyectos o modificar servicios, edita datos.js y confirma cambios (Commit changes).
+7. Para fotos nuevas, súbelas a assets y actualiza el campo imagen en datos.js.
+8. Actualiza redes sociales en index.html cuando tengas sus enlaces.
+IMPORTANTE: Las imágenes iniciales son páginas del PDF original, usadas como material provisional. Se recomienda sustituirlas por fotos originales de los proyectos y logo en alta resolución.
+Esta versión es estática y no incluye un panel privado de administración. Un panel editable sincronizado entre dispositivos requiere autenticación y almacenamiento (por ejemplo Firebase/Supabase), que se puede integrar después.
