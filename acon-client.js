@@ -1,0 +1,1 @@
+(()=>{const c=window.ACON_SUPABASE||{};window.aconReady=!!(c.url?.startsWith('https://')&&c.key&&!c.key.startsWith('PEGA_'));window.aconClient=window.aconReady&&window.supabase?.createClient(c.url,c.key,{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:false}});})();

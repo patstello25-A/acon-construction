@@ -1,0 +1,12 @@
+ACON Construction - Actualización con panel Supabase
+
+1. Abre supabase-config.js y pega Project URL y clave PUBLICABLE (publishable o anon). Nunca uses service_role/secret.
+2. Sube a la RAÍZ del repositorio GitHub: index.html, datos.js, admin.html, admin.js, acon-client.js, public-catalog.js, supabase-config.js y la carpeta assets.
+3. No publiques contraseñas ni claves secretas.
+4. Abre /admin.html e inicia sesión con el usuario que autorizaste en admin_users.
+5. Publica un proyecto y comprueba que aparezca en index.html.
+6. La portada usa el bucket público acon-public. No subas fotos confidenciales.
+7. Esta versión administra portada por proyecto; una galería de varias fotos por proyecto requiere la siguiente ampliación.
+8. El catálogo conserva datos del PDF como contenido inicial mientras no existan registros publicados en Supabase. Al publicar registros en Supabase se muestran esos registros.
+9. Verifica que RLS esté activado y las políticas de admin funcionen antes de subir datos reales.
+10. Revisa las políticas SELECT de Storage si posteriormente deseas listar imágenes privadas.
